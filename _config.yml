@@ -1,0 +1,7 @@
+markdown: rdiscount
+pygments: true
+#baseurl: https://files.nyu.edu/zk311/public
+
+
+rdiscount:
+  extensions: []
