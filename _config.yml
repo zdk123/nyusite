@@ -1,6 +1,7 @@
 markdown: rdiscount
 pygments: true
-#baseurl: https://files.nyu.edu/zk311/public
+#baseurl: https://files.nyu.edu/zk311/public/site
+#baseurl: https://dl.dropbox.com/u/13272365/site
 
 
 rdiscount:

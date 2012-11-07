@@ -97,7 +97,7 @@ ul.posts {
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
-  margin-left: 30px;
+  margin-left: 75px;
 }
 
   .site .title a {
@@ -211,13 +211,13 @@ ul.posts {
 \***********/
 body{
     margin:0 100px;
-    padding:0 30px 0 80px;
+    padding:0 0 0 80px;
 }
 #container{
     background-color:white;
     float:left;
     width:150%;    
-    border-left:150px solid #cf9; /* The width and color of the left rail */
+    border-left:180px solid #cf9; /* The width and color of the left rail */
     border-right:0px solid #c33; /* The width -set to 0 - and color of the right rail */
     margin-left:-150px;
 /*    margin-right:150px;*/
@@ -227,14 +227,14 @@ body{
 
 #leftRail{
     float:left;
-    width:150px;
-    margin-left:-150px;
+    width:180px;
+    margin-left:-183px;
     position:relative;
 }
 
 
 #leftRail h2 {
-    padding-left:27px;
+  text-align:center;
 
 }
 
@@ -243,12 +243,24 @@ body{
     float:left;
     width:100%;
     margin-right:-100%;
+    overflow:visible;
+
+}
+
+#centerpush {
+    margin-top:10px;
+    margin-left:10px;
+}
+
+hr#centerpush {
+    margin-left:-10px;
+    margin-right:-20px;
 }
 
 #header, #footer{
     background-color:#FFFFFF;
-    margin-left:-153px;
-/*    margin-right:-200px;*/
+    width:184%;
+    margin-left:-150px;
     clear:both;
 }
 
@@ -257,7 +269,7 @@ body{
 /*  border:1px solid #444;*/
   margin:5px;
   padding:5px;
-  margin-left:23px;
+  text-align:center;
   font-size: 12px;
   font-family: helvetica, arial, clean, sans-serif; 
 }
@@ -280,21 +292,43 @@ ul .sidebar hover {
 }
 
 
+
 /***********************
 /* Index page stuff
 /*
 /***********************/
 
-table .nyutable {
-    margin:0 0 0 0;
+
+#nyutable {
+    width:100%;
+    margin-left:30px;
+    list-style-type: none;
 }
 
-  table .nyutable  th, td{
-    padding:0 15px 0 15px;
-    border: 0px;
-    text-align:left;
-    margin-left:auto; 
-    margin-right:auto;
-    body {text-align:center;} /* for ie*/
-  }
+#nyutable_left {
+    float: left;
+    body {text-align:left;}
+}
 
+
+#nyutable_center {
+    float:left;
+    margin-top:-20px;
+    margin-left:50px;
+}
+
+#nyutable_right {
+    float:right;
+    margin-top:-50px;
+    margin-right:80px;
+}
+
+
+/**********
+ For pub list
+*************/
+
+#publist {
+      list-style-type: none;
+
+}
